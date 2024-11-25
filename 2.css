@@ -1,0 +1,111 @@
+body {
+    background-image: url(UMB-BG.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+h1 {
+    color:azure;
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+h2 {
+    color:azure;
+    text-align: center;
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+h3 {
+    color:azure;
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+button {
+    background-color: white;
+}
+
+.bsubutton:hover {
+    box-shadow: 2px 2px 5px rgb(151, 0, 0);
+}
+
+.umbbutton:hover {
+    box-shadow: 2px 2px 5px rgb(0, 11, 172);
+}
+
+.normbutton:hover {
+    box-shadow:2px 2px 5px rgb(0, 0, 0)
+}
+
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 20px 10px;
+  }
+
+  ul {
+    color:azure;
+    font-size: 20px;
+    margin-left: 250px;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+#photochange1 {
+    max-width: 800px;
+    min-width: 500px;
+}
+
+#photochangenolink {
+    max-width: 800px;
+    min-width: 500px;
+    background: rgb(255, 255, 255);
+}
+
+#photochange1:hover {
+    color: #111;
+    background: greenyellow;
+    box-shadow: 0 0 50px greenyellow;
+    animation: animate 1s ease-in-out infinite alternate;
+}
+
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+
+#buttonIMG {
+    width: 60%;
+}
+
+#button2 {
+    width: 100px;
+    height: 50px;
+}
+
+
+

@@ -1,0 +1,64 @@
+body {
+    background-image: url(ThxBg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+h1 {
+    color:azure;
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+button {
+    background-color:azure;
+}
+
+h2 {
+    color:azure;
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:right;
+    align-items: right;
+
+    margin:auto;
+}
+
+.bsubutton:hover {
+    box-shadow: 2px 2px 5px rgb(151, 0, 0);
+}
+
+.umbbutton:hover {
+    box-shadow: 2px 2px 5px rgb(0, 11, 172);
+}
+
+.normbutton:hover {
+    box-shadow:2px 2px 5px rgb(0, 0, 0)
+}
+
+#smallerIMG {
+    width: 30%;
+}
+
+#smallerIMG2 {
+    width: 60%;
+}
+
+#buttonIMG {
+    width: 60%;
+}
+
+#button2 {
+    width: 100px;
+    height: 50px;
+}
+  
